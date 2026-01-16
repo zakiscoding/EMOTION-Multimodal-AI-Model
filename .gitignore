@@ -1,0 +1,42 @@
+
+# large model weights
+multimodal/deployment/model_normalized/model.pth
+multimodal/deployment/model/model.pth
+*.pth
+
+# ===== Large files / ML artifacts =====
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.h5
+*.bin
+*.model
+
+# ===== Datasets =====
+*.csv
+*.tsv
+*.parquet
+*.npy
+*.npz
+
+# ===== Archives / binaries =====
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# ===== OS / misc =====
+.DS_Store
+
+# Next.js build
+**/.next/
+**/node_modules/
+
+# Never commit env or builds
+**/.env
+**/.env.*
+!.env.example
+**/.next/
+**/node_modules/
